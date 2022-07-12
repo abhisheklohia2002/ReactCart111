@@ -1,0 +1,56 @@
+.form{
+    border: 2px solid black;
+    height: auto;
+    width: 34vw;
+    margin: auto;
+    background-color: beige;
+    margin-top: 5vw;
+}
+
+.active{
+    color: brown;
+}
+
+
+
+
+.box{
+    border: 2px solid black;
+    height: auto;
+    width: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.img{
+    height: 15vw;
+    width: 20vw;
+}
+
+.div{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    column-gap: 10vw;
+  
+    background: #ad6666;
+}
+.btn{
+    height: 2vw;
+    width: 7vw;
+    background-color: bisque;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(204, 122, 122);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+NavLink{
+    text-decoration: none;
+    
+}
